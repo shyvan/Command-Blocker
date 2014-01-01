@@ -1,0 +1,20 @@
+name: Command-Blocker
+version: 0.1
+description: Command-Blocker
+author: royke0011
+website: http://www.shyvo.net
+
+main: me.royke0011.Command-Blocker.main
+
+commands: 
+  Command-Blocker:
+    description:  List blocked commands
+    usage:  /<command>
+  cbadd:
+    description: Add blocked commands
+    usage: /<command> [string]
+
+permissions:
+  commandblocker.bypass:
+    description: Bypass CommandBlocker
+    default: false
